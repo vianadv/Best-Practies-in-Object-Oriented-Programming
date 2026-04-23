@@ -4,8 +4,8 @@
     - [Coesão e Responsabilidade](#coesão-e-responsabilidade)
     - [Encapsulamento](#encapsulamento)
     - [Acoplamento](#acoplamento)
-- [💎 Princípios SOLID](#-princípios-solid)
-    - [S - Single Responsibility](#s---single-responsibility)
+- [💎 Princípios SOLID]
+    - [S - Single Responsibility](SRP - Single Responsibility Principle.md)
     - [O - Open/Closed](#o---openclosed)
     - [L - Liskov Substitution](#l---liskov-substitution)
     - [I - Interface Segregation](#i---interface-segregation)
