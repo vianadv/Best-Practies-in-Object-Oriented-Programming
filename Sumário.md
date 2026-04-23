@@ -5,7 +5,7 @@
     - [Encapsulamento](#encapsulamento)
     - [Acoplamento](#acoplamento)
 - [💎 Princípios SOLID]
-    - [S - Single Responsibility](SOLID/SRP-SingleResponsibilityPrinciple.md)
+    - [S - Single Responsibility](<SOLID/SRP - Single Responsibility Principle.md>)
     - [O - Open/Closed](#o---openclosed)
     - [L - Liskov Substitution](#l---liskov-substitution)
     - [I - Interface Segregation](#i---interface-segregation)
