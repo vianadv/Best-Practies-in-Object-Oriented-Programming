@@ -1,18 +1,18 @@
 ## 📑 Sumário
 
-- [🏛️ Fundamentos e Pilares](#️-fundamentos-e-pilares)
-    - [Coesão e Responsabilidade](#coesão-e-responsabilidade)
-    - [Encapsulamento](#encapsulamento)
-    - [Acoplamento](#acoplamento)
-- [💎 Princípios SOLID]
+- 🏛️ Fundamentos e Pilares
+    - [Coesão e Responsabilidade](Fundamentos/Coesão.md)
+    - [Encapsulamento](Fundamentos/Encapsulamento.md)
+    - [Acoplamento](Fundamentos/Coesão.md)
+- 💎 Princípios SOLID
     - [S - Single Responsibility](<SOLID/SRP - Single Responsibility Principle.md>)
-    - [O - Open/Closed](#o---openclosed)
-    - [L - Liskov Substitution](#l---liskov-substitution)
-    - [I - Interface Segregation](#i---interface-segregation)
-    - [D - Dependency Inversion](#d---dependency-inversion)
-- [🏋️ Object Calisthenics](#️-object-calisthenics-o-treino-do-código-limpo)
-    - [As 9 Regras de Design](#️-object-calisthenics-o-treino-do-código-limpo)
-    - [Tell, Don't Ask (Diga, não pergunte)](#diga-não-pergunte-tell-dont-ask)
+    - [O - Open/Closed](<SOLID/OCP - Open Closed Principle.md>)
+    - [L - Liskov Substitution](<SOLID/LSP - Liskov Substitution Principle.md>)
+    - [I - Interface Segregation](<SOLID/ISP - Interface Segregation Principle.md>)
+    - [D - Dependency Inversion](<SOLID/DIP - Dependency Inversion Principle.md>)
+- [🏋️ Object Calisthenics]
+    - As 9 Regras de Design
+    - Tell, Don't Ask (Diga, não pergunte)
 - [🏗️ Domain-Driven Design (DDD)](#️-domain-driven-design-ddd)
-    - [Linguagem Ubíqua](#linguagem-ubíqua)
-    - [Contextos e Agregados](#contexto-delimitado-bounded-context)
+    - [Linguagem Ubíqua](<DDD/Linguagem Ubíqua.md>)
+    - [Contextos e Agregados](<DDD/Contexto Delimitado.md>)
