@@ -10,9 +10,9 @@
     - [L - Liskov Substitution](<SOLID/LSP - Liskov Substitution Principle.md>)
     - [I - Interface Segregation](<SOLID/ISP - Interface Segregation Principle.md>)
     - [D - Dependency Inversion](<SOLID/DIP - Dependency Inversion Principle.md>)
-- [🏋️ Object Calisthenics]
+- 🏋️ Object Calisthenics
     - As 9 Regras de Design
     - Tell, Don't Ask (Diga, não pergunte)
-- [🏗️ Domain-Driven Design (DDD)](#️-domain-driven-design-ddd)
+- 🏗️ Domain-Driven Design (DDD)
     - [Linguagem Ubíqua](<DDD/Linguagem Ubíqua.md>)
     - [Contextos e Agregados](<DDD/Contexto Delimitado.md>)
