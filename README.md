@@ -1,56 +1,53 @@
-# Best-Practies-in-Object-Oriented-Programming
-A comprehensive guide to Software Engineering best practices, covering OOP pillars, SOLID principles, Object Calisthenics, and DDD
+# 🚀 Boas Práticas em Engenharia de Software: POO, SOLID e Design Limpo
 
-# 🚀 Software Engineering Best Practices: OOP, SOLID & Clean Design
+Este repositório é um compêndio dos meus estudos sobre como escrever código limpo, manutenível e de alta qualidade. Aqui, organizo conceitos fundamentais que vão desde os pilares da Programação Orientada a Objetos (POO) até regras rígidas de design de código e arquitetura.
 
-This repository is a compendium of my studies on how to write clean, maintainable, and high-quality code. It organizes fundamental concepts ranging from the pillars of Object-Oriented Programming (OOP) to strict code design rules and architecture.
+## 🏛️ Fundamentos e Pilares
 
-## 🏛️ Fundamentals & Pillars
+### Coesão e Responsabilidade
+Uma classe deve realizar e possuir apenas aquilo que faz sentido para a sua própria existência. Se uma classe valida dados, guarda informações e executa regras de negócio ao mesmo tempo, ela está a fazer coisas a mais e deve ser dividida.
 
-### Cohesion and Responsibility
-A class should perform and possess only what makes sense for its existence. If a class validates data, saves information, and executes business rules all at once, it is doing too much and must be divided.
+### Encapsulamento
+Esconda os processos internos. Quem utiliza um método não precisa de saber como ele funciona "por baixo do capô", apenas como interagir com ele. Isso permite que a lógica interna mude sem quebrar os componentes externos.
 
-### Encapsulation
-Hide internal processes. Those who use a method do not need to know how it works "under the hood," only how to interact with it. This allows internal logic to change without breaking the external components.
-
-### Coupling
-The secret is **low coupling**. We should always depend on stable abstractions (interfaces) rather than concrete implementations that change frequently.
+### Acoplamento
+O segredo é o **baixo acoplamento**. Devemos procurar sempre depender de abstrações estáveis (interfaces) em vez de implementações concretas que mudam frequentemente.
 
 ---
 
-## 💎 SOLID Principles
+## 💎 Princípios SOLID
 
-* **S - Single Responsibility:** A class should have one, and only one, reason to change.
-* **O - Open/Closed:** Software entities should be open for extension, but closed for modification. Add new features by creating new files, not by altering existing ones.
-* **L - Liskov Substitution:** Derived classes must be substitutable for their base classes without breaking the system.
-* **I - Interface Segregation:** No client should be forced to depend on methods it does not use.
-* **D - Dependency Inversion:** Depend on abstractions, not on concretions. High-level modules should not depend on low-level modules.
+* **S - Single Responsibility:** Uma classe deve ter uma, e apenas uma, razão para mudar.
+* **O - Open/Closed:** Entidades de software devem estar abertas para extensão, mas fechadas para modificação. Adicione novas funcionalidades criando novos ficheiros, não alterando os existentes.
+* **L - Liskov Substitution:** Classes derivadas devem poder substituir as suas classes base sem quebrar o sistema.
+* **I - Interface Segregation:** Nenhuma classe deve ser forçada a depender de métodos que não utiliza.
+* **D - Dependency Inversion:** Dependa de abstrações, não de implementações. Módulos de alto nível não devem depender de módulos de baixo nível.
 
 ---
 
-## 🏋️ Object Calisthenics (The "Clean Code" Workout)
+## 🏋️ Object Calisthenics (O "Treino" do Código Limpo)
 
-A set of 9 strict rules to elevate the level of object-oriented design:
+Um conjunto de 9 regras rígidas para elevar o nível do design orientado a objetos:
 
-1.  **Only one level of indentation per method:** If you have an `if` inside a `for`, extract the content to a new method.
-2.  **Don't use ELSE:** Use **Fail Fast** (throw errors early) and **Early Return** techniques. If the code hits a `return`, everything below it is ignored.
-3.  **Wrap all primitives:** If a data type has rules or validations (like a Social Security Number or Email), it deserves its own class. **If data has a rule, it deserves a class.**
-4.  **First-Class Collections:** A class that contains a collection should not have any other member variables.
-5.  **One dot per line (Law of Demeter):** Do not talk to "strangers." Avoid long chains like `order.getCustomer().getAddress().getCity()`. Use `order.getCustomerCity()` instead.
-6.  **Don't abbreviate:** Save confusion, not letters. Clear names prevent people from having to guess what the code does.
-7.  **Keep entities small:** Ideally, keep classes between 50 to 200 lines. If you can't explain what a class does quickly, it is too large.
-8.  **No more than two instance variables per class:** This forces high cohesion and the creation of new abstractions.
-9.  **Tell, Don't Ask:** Do not use *getters* and *setters* to decide what to do outside the object. Tell the object what to do and let it manage its own state.
+1. **Apenas um nível de indentação por método:** Se tem um `if` dentro de um `for`, extraia o conteúdo para um novo método.
+2. **Não use ELSE:** Utilize as técnicas de **Fail Fast** (lançar erros cedo) e **Early Return**. Se o código atinge um `return`, tudo o que está abaixo é ignorado.
+3. **Envolva os tipos primitivos (Wrap Primitives):** Se um tipo de dado possui regras ou validações (como um CPF ou E-mail), ele merece a sua própria classe. **Se o dado tem uma regra, ele merece uma classe.**
+4. **First-Class Collections:** Uma classe que contém uma coleção não deve ter nenhuma outra variável de instância.
+5. **Um ponto por linha (Lei de Demeter):** Não converse com "estranhos". Evite correntes longas como `pedido.getCliente().getEndereco().getCidade()`. Use `pedido.getCidadeDoCliente()`.
+6. **Não abrevie:** Economize confusão, não letras. Nomes claros evitam que as pessoas tenham de adivinhar o que o código faz.
+7. **Mantenha as entidades pequenas:** Idealmente, mantenha as classes entre 50 a 200 linhas. Se não consegue explicar o que uma classe faz rapidamente, ela é demasiado grande.
+8. **No máximo dois atributos por classe:** Isto força uma alta coesão e a criação de novas abstrações.
+9. **Diga, não pergunte (Tell, Don't Ask):** Não use *getters* e *setters* para decidir o que fazer fora do objeto. Diga ao objeto o que fazer e deixe-o gerir o seu próprio estado.
 
 ---
 
 ## 🏗️ Domain-Driven Design (DDD)
 
-* **Ubiquitous Language:** Developers and business experts must speak the same language in the code.
-* **Bounded Context:** The system should be divided into specific areas where terms have specific meanings.
-* **Entities vs Value Objects:** Entities have a unique identity (ID); Value Objects are defined by their attributes and are immutable.
-* **Aggregates:** A cluster of domain objects that can be treated as a single unit to ensure data integrity.
+* **Linguagem Ubíqua:** Desenvolvedores e especialistas de negócio devem falar a mesma língua no código.
+* **Contexto Delimitado (Bounded Context):** O sistema deve ser dividido em áreas específicas onde os termos têm significados bem definidos.
+* **Entidades vs Objetos de Valor (Value Objects):** Entidades têm uma identidade única (ID); Objetos de Valor são definidos pelos seus atributos e são imutáveis.
+* **Agregados:** Um conjunto de objetos de domínio que podem ser tratados como uma unidade única para garantir a integridade dos dados.
 
 ---
 
-> "Simplicity is the ultimate sophistication." — Leonardo da Vinci
+> "A simplicidade é o último grau da sofisticação." — Leonardo da Vinci
