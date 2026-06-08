@@ -235,4 +235,3 @@ Ideia central
 
 - **Quem deve saber isso?**  
 - **Quem deve fazer isso?**
-#BoasPraticas
