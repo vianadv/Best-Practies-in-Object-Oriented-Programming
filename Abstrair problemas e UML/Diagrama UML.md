@@ -2,7 +2,6 @@
 ### Perguntas iniciais
 **1. Quem existe?**
 Procuro as coisas do enunciado.
-
 *Ex: Curso, Professor, Aluno, Pedido, Produto*
 
 **2. O que cada um sabe?**
