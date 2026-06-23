@@ -1,25 +1,25 @@
 [[00uml]]
 
-1. Quem existe?
+**1. Quem existe?
 Procuro as coisas do enunciado.
 Ex: Curso, Professor, Aluno, Pedido, Produto
-2. O que cada um sabe?
+**2. O que cada um sabe?
 Esses viram os atributos.
-3. O que cada um faz?
+**3. O que cada um faz?
 Esses viram os métodos.
-4. O que muda por tipo?
+**4. O que muda por tipo?
 Se algo muda conforme o tipo, penso em herança/polimorfismo.
 Ex: CursoOnline e CursoPresencial
-5. O que é só ligação?
+**5. O que é só ligação?
 Se algo só conecta duas entidades, pode ser uma classe de associação.
 Ex: Matricula, ItemPedido
-6. Isso é uma lista fechada de opções?
+**6. Isso é uma lista fechada de opções?
 Se só pode ter alguns valores definidos, penso em enum.
 Ex: StatusPedido, Turno, TipoCurso
-7. Isso é um contrato de comportamento?
+**7. Isso é um contrato de comportamento?
 Se várias classes fazem a mesma coisa de formas diferentes, penso em interface.
 Ex: PagamentoService, Notificavel
-8. Existe uma base comum, mas incompleta?
+**8. Existe uma base comum, mas incompleta?
 Se existe algo genérico que serve como base para outros tipos, penso em classe abstrata.
 Ex: Curso, Funcionario, Conta
 
