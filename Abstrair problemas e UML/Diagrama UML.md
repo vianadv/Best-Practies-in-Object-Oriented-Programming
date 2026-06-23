@@ -3,7 +3,6 @@
 **1. Quem existe?**
 Procuro as coisas do enunciado.
 *Ex: Curso, Professor, Aluno, Pedido, Produto*
-
 **2. O que cada um sabe?**
 Esses viram os atributos.
 **3. O que cada um faz?**
