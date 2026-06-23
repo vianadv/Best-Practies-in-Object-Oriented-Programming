@@ -73,11 +73,11 @@ ela está fazendo coisa demais.
 
 ## Resumo mental
 
-Coisas -> Classes
-Informações -> Atributos
-Ações -> Métodos
-Tipos diferentes -> Herança
-Ligações -> Associação / Classe associativa
-Opções fixas -> Enum
-Mesmo comportamento em classes diferentes -> Interface
-Base comum incompleta -> Classe abstrata
+- Coisas -> Classes
+- Informações -> Atributos
+- Ações -> Métodos
+- Tipos diferentes -> Herança
+- Ligações -> Associação / Classe associativa
+- Opções fixas -> Enum
+- Mesmo comportamento em classes diferentes -> Interface
+- Base comum incompleta -> Classe abstrata
